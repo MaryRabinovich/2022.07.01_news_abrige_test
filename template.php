@@ -8,7 +8,9 @@
 </head>
 <body>
 
-    <a href="<?= $link ?>">link</a>
+    <a href="<?= $link ?>">
+        <?= $b ?>
+    </a>
 
 </body>
 </html>

@@ -1,5 +1,8 @@
 <?php declare(strict_types=1);
 
+define('NEWS_LENGTH', 20);
+// define('NEWS_LENGTH', 180);
+
 $a = "
     Lorem ipsum dolor sit amet consectetur adipisicing elit. 
     Vero impedit similique error libero necessitatibus commodi 
@@ -40,5 +43,9 @@ $a = "
 ";
 
 $link = 'full_text.html';
+
+
+$b = substr($a, 0, NEWS_LENGTH);
+$b .= '...';
 
 require 'template.php';
