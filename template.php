@@ -8,9 +8,12 @@
 </head>
 <body>
 
-    <a href="<?= $link ?>">
-        <?= $b ?>
-    </a>
+    <p>
+        <?= $newsAbrigeArray[0] ?>
+        <a href="<?= $link ?>">
+            <?= $newsAbrigeArray[1] ?>
+        </a>
+    </p>
 
 </body>
 </html>
